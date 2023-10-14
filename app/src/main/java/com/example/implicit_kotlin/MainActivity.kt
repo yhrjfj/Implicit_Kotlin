@@ -11,10 +11,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        var button : Button =findViewById(R.id.btn)
+        var button : Button = findViewById(R.id.btn)
         button.setOnClickListener(){
             intent = Intent(Intent.ACTION_VIEW)
-            intent.setData(Uri.parse("https://www.google.com"))
+            intent.setData(Uri.parse("https://www.github.com/riyad671"))
             startActivity(intent)
         }
     }
